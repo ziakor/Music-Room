@@ -1,0 +1,28 @@
+# my-scenario.yml
+config:
+  target: 'http://localhost:3001/rooms'
+  phases:
+    - duration: 10
+      arrivalRate: 100
+  engines:
+    socketio-v3: {}
+
+scenarios:
+  - name: My sample scenario
+    engine: socketio-v3
+    flow:
+      # wait for the WebSocket upgrade (optional)
+      - think: 1
+
+      # basic emit
+      - emit:
+          channel: 'joinRoom'
+          data:
+            {
+              'pseudo': 'testPseudo',
+              'role': 'User',
+              'roomId': 'roomId123',
+              'isInvited': false,
+            }
+      # do nothing for 2 seconds then disconnect
+      - think: 1

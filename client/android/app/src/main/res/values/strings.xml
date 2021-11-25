@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Music-room</string>
+  <string name="facebook_app_id">559422072097255</string>
+  <string name="fb_login_protocol_scheme">559422072097255</string>
+</resources>
