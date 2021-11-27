@@ -1,16 +1,33 @@
 # music_room
 
-A new Flutter project.
+Create a complete mobile app of collaborative playlist using the SDK and API of Spotify. On the menu, mobile native development, back-end development and creation of API REST.
 
-## Getting Started
+The subject is [here](./subject_musicRoom.pdf).
 
-This project is a starting point for a Flutter application.
+---
+<img src="./ImagesReadme/HomeUnl.png">
+<img src="./ImagesReadme/signup.png">
+<img src="./ImagesReadme/signin.png">
 
-A few resources to get you started if this is your first Flutter project:
+> Sign with Google, Facebook and Email/Password.
+> Email validation when Sign with Email/Password.
+> Forget password.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<img src="./ImagesReadme/settings.png">
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>Settings
+
+<img src="./ImagesReadme/list.png">
+
+<img src="./ImagesReadme/createRoom.png">
+<img src="./ImagesReadme/roomwithoutSearch.png">
+<img src="./ImagesReadme/roomwithSearch.png">
+
+> Room/Playlist public and private.
+> Vote in room and add song.
+
+<img src="./ImagesReadme/Invitation+List.png">
+<img src="./ImagesReadme/RightLicense.png">
+
+> License management in Room and playlist.
+ 
